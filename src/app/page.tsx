@@ -43,7 +43,7 @@ export default function Home() {
       {/* Hero Value Proposition - HUGE & IMPACTFUL */}
       <section className={styles.valueSection}>
         <div className={styles.hugeSlogan}>
-            <p>我能帮助你</p>
+            <p>我能帮助你 </p>
             <p className="text-red">在 AI 时代，成功转型</p>
             <p>用 <span className="text-cyan">Agent Skill</span> ，成为超级个体</p>
         </div>
