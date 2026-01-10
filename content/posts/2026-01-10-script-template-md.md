@@ -1,0 +1,31 @@
+---
+title: script_template
+date: '2026-01-10'
+category: script
+originalPath: /Users/tangchao/Documents/tangzhanx/video/script_template.md
+---
+## 观众的情绪(有用，新奇)
+
+
+## 视频结构(线性，递进，回环，意外，迭代)
+
+
+## 标题
+
+
+## 开篇场景 3-5s (问题，金句，结论)
+
+
+## 中间内容 (15s注意力，路标预告)
+
+
+## 金句提炼（总结，升华），争议点提炼(卖个破绽)
+
+
+## 结尾引导（固定结尾）
+
+
+## 标签（#ai #编程 #程序员）
+
+
+## 描述（引导互动）

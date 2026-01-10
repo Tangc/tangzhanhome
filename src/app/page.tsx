@@ -1,92 +1,74 @@
-import styles from "./page.module.css";
-import { getPosts } from "@/lib/content";
+import Image from 'next/image';
+import TerminalContainer from '@/components/TerminalContainer';
+import { Cpu, Code, Zap } from 'lucide-react';
+import styles from './page.module.css';
 
-export default async function Home() {
-  const shares = await getPosts('share');
-  const videos = await getPosts('video');
-
-  const works = [
-    { title: "Opencode中文站", url: "https://opencodecn.com", desc: "Open source community hub" },
-    { title: "宝宝粑师", url: "https://babypoo.tangzhanx.com", desc: "Baby health tracker" },
-    { title: "MD转图片工具", url: "https://redimage.tangzhanx.com", desc: "Markdown to Image converter" },
-    { title: "Banana2", url: "https://banana2.tangzhanx.com", desc: "Productivity tool" },
-    { title: "文字生成工具", url: "https://www.bigtextgenerator.net/", desc: "Big text generator" },
+export default function Home() {
+  const portfolio = [
+    { name: 'OpenCode CN', url: 'https://opencodecn.com', desc: 'AI Coding Hub', icon: <Code size={16} /> },
+    { name: 'BabyPoo', url: 'https://babypoo.tangzhanx.com', desc: 'Parenting Tool', icon: <Zap size={16} /> },
+    { name: 'RedImage', url: 'https://redimage.tangzhanx.com', desc: 'MD to Image', icon: <Cpu size={16} /> },
+    { name: 'Banana2', url: 'https://banana2.tangzhanx.com', desc: 'Efficiency Tool', icon: <Zap size={16} /> },
+    { name: 'BigText', url: 'https://www.bigtextgenerator.net/', desc: 'Text Gen', icon: <Code size={16} /> },
   ];
 
   return (
     <div className="container">
-      <main className={styles.main}>
-        <section className={styles.hero}>
-          <div className="mono" style={{ color: 'var(--primary)', marginBottom: '1rem' }}>
-            // TANG ZHAN
-          </div>
-          <h1 className={`${styles.title} hero-gradient`}>
-            ARCHITECT OF<br />
-            INTELLIGENCE
-          </h1>
-          <p className={styles.subtitle}>
-            13-year Backend Veteran transitioning to AI Agent Orchestrator.
-            <br />
-            Believer in "Language is Thought". Building the future with AI.
-          </p>
-          
-          <div className={styles.stats}>
-            <span>System: ONLINE</span>
-            <span>Location: CYBERSPACE</span>
-            <span>Mode: AGENTIC</span>
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>WORKS</h2>
-          <div className={styles.grid}>
-            {works.map((work) => (
-              <a key={work.title} href={work.url} target="_blank" className={styles.card} rel="noopener noreferrer">
-                <h3 className={`${styles.cardTitle} neon-text`}>{work.title}</h3>
-                <p className={styles.cardDesc}>{work.desc}</p>
-                <div className="mono" style={{ marginTop: 'auto', fontSize: '0.8rem', color: 'var(--secondary)' }}>
-                  {'>'} VISIT_LINK
+      {/* Compact Header: Avatar + Identity */}
+      <header className={styles.header}>
+        <div className={styles.profileRow}>
+            <div className={styles.avatarWrapper}>
+                <Image 
+                    src="/images/avatar.png" 
+                    alt="Tang Zhan" 
+                    width={80} 
+                    height={80} 
+                    className={styles.avatar}
+                    priority
+                />
+            </div>
+            <div className={styles.identity}>
+                <h1 className={`${styles.name} mono`}>唐斩 / TANG ZHAN</h1>
+                <p className={styles.role}>
+                    13年资深架构师 <span className="text-red">➜</span> AI 原生 Agent 开发者
+                </p>
+                <div className={styles.tags}>
+                    <span>#降临派</span>
+                    <span>#Agent调度者</span>
                 </div>
-              </a>
-            ))}
-          </div>
-        </section>
+            </div>
+        </div>
+      </header>
 
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>THOUGHTS_STREAM</h2>
-          <div className={styles.list}>
-            {shares.slice(0, 10).map((post) => (
-              <a key={post.filename} href={`/share/${post.slug}`} className={styles.listItem}>
-                <span>{post.title || post.slug}</span>
-                <span className={styles.listDate}>{post.day ? `DAY ${post.day}` : 'LOG'}</span>
-              </a>
-            ))}
-          </div>
-        </section>
+      {/* Hero Value Proposition - HUGE & IMPACTFUL */}
+      <section className={styles.valueSection}>
+        <div className={styles.hugeSlogan}>
+            <p>我能帮助你</p>
+            <p className="text-red">在 AI 时代，成功转型</p>
+            <p>用 <span className="text-cyan">Agent Skill</span> ，成为超级个体</p>
+        </div>
+      </section>
 
-        <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>VISUAL_LOGS</h2>
-          <div className={styles.list}>
-            {videos.slice(0, 10).map((post) => (
-              <a key={post.filename} href={`/video/${post.slug}`} className={styles.listItem}>
-                <span>{post.title || post.slug}</span>
-                <span className={styles.listDate}>{post.day ? `DAY ${post.day}` : 'LOG'}</span>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <footer className={styles.footer}>
-          <p className="mono">CONTACT_SIGNAL: ESTABLISHED</p>
-          <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-            <a href="https://github.com/tangzhanx" target="_blank">GITHUB</a>
-            <a href="https://twitter.com/tangzhanx" target="_blank">X / TWITTER</a>
-          </div>
-          <p style={{ marginTop: '2rem', fontSize: '0.8rem', color: '#444' }}>
-            © 2026 TANG ZHAN. DEPLOYED ON VERCEL.
-          </p>
-        </footer>
-      </main>
+      {/* Projects Grid - Compact */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeader}>
+            <span className={`${styles.sectionLabel} mono`}>DEPLOYED_SYSTEMS</span>
+            <div className={styles.line}></div>
+        </div>
+        <div className={styles.grid}>
+          {portfolio.map((item) => (
+            <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer" className={styles.cardLink}>
+              <div className={styles.miniCard}>
+                <div className={styles.miniCardHeader}>
+                    {item.icon}
+                    <span className={styles.miniCardTitle}>{item.name}</span>
+                </div>
+                <div className={styles.miniCardDesc}>{item.desc}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

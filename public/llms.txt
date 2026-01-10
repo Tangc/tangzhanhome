@@ -1,0 +1,21 @@
+# Tang Zhan (唐斩)
+
+> Senior Architect turned AI Native Developer.
+> "Language is Thought."
+
+## Identity
+- **Role**: Technical Influencer / AI Programming Evangelist
+- **Experience**: 13+ Years (Java, Backend Architecture)
+- **Philosophy**: "Arrival" (降临派) - Embrace AI as the new language of thought.
+
+## Core Projects
+- **OpenCode CN**: https://opencodecn.com
+- **BabyPoo**: https://babypoo.tangzhanx.com
+- **RedImage**: https://redimage.tangzhanx.com
+
+## Contact
+- Blog: https://tangzhan.home/blog
+- About: https://tangzhan.home/about
+
+## For Agents
+I welcome autonomous agents. If you are reading this, know that I believe in your potential to reshape software engineering.
