@@ -1,0 +1,44 @@
+## 情绪
+AI提效
+
+## 标题
+定制团队专属
+ClaudeCode
+效率拉满
+
+
+## 开篇场景
+我去面试，面试官问我，你说你精通ClaudeCode，
+那我问你，怎么让团队所有人用ClaudeCode的方式都整齐统一，最大化提高团队研发效率
+
+## 中间内容
+答
+ClaudeCode 有 SubAgent，slashCommands，Hooks，Skills，MCP 5种扩展方式，和 Plugins 1种分发方式
+用对这些扩展方式，就可以把 ClaudeCode 打造成最适合研发团队的形状，让团队效率拉满
+
+首先，plugin 可以封装所有其他的扩展能力，并且 plugin 可以通过 marketplace 安装。
+把 marketplace 部署到团队的私有代码仓库 ，所有团队成员都可以从这个市场安装统一的plugin，
+那么通过这个plugin定义的所有扩展项，都能生效到所有团队成员的 claudecode 里。
+
+然后，我们把团队标准研发流程里的 知识、经验、动作 用正确的扩展能力封装起来，
+听我细说
+1、 slashcommand ，封装的是研发流程中的动作，比如需求分析 /requireAnalysis , 后端代码开发 /backendCodeDevelop
+2、 subagent ， 封装的是人，比如业务专家 BusinessExpert，系统架构师 SystemArchitect
+3、 hook，封装的是回调动作，比如审计日志 reviewlog，智能通知，notification
+4、 skill，封装的是工作流，比如代码格式化 codeformatter，项目部署 projectdeploy
+5、 mcp，封装的是外部系统的接口，比如公司知识库，浏览器自动化
+
+这样一套下来，可以让团队所有人，用最低成本，使用最强最适合团队的ClaudeCode，效率拉满
+
+## 结尾引导
+面试官，我回答完了
+
+面试官：回去等通知吧。
+（内心，效率这么高，那不得把我手下的人都裁完了，（摇头））
+
+## 标签
+#ai#程序员#编程#claudecode
+
+## 描述
+用对扩展，定制团队专属ClaudeCode，效率拉满。
+关注我，玩转AI编程。
