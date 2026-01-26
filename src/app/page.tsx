@@ -1,15 +1,11 @@
 import Image from 'next/image';
 import TerminalContainer from '@/components/TerminalContainer';
-import { Cpu, Code, Zap } from 'lucide-react';
+import { Code } from 'lucide-react';
 import styles from './page.module.css';
 
 export default function Home() {
   const portfolio = [
     { name: 'OpenCode CN', url: 'https://opencodecn.com', desc: 'AI Coding Hub', icon: <Code size={16} /> },
-    { name: 'BabyPoo', url: 'https://babypoo.tangzhanx.com', desc: 'Parenting Tool', icon: <Zap size={16} /> },
-    { name: 'RedImage', url: 'https://redimage.tangzhanx.com', desc: 'MD to Image', icon: <Cpu size={16} /> },
-    { name: 'Banana2', url: 'https://banana2.tangzhanx.com', desc: 'Efficiency Tool', icon: <Zap size={16} /> },
-    { name: 'BigText', url: 'https://www.bigtextgenerator.net/', desc: 'Text Gen', icon: <Code size={16} /> },
   ];
 
   return (
