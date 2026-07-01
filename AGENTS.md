@@ -14,6 +14,8 @@ bun run build
 ## 文章同步
 
 - `/Users/tangchao/Documents/tangzhanx/share` 是原始内容库，不在原地改写。
+- 当用户说“从 share 同步到个人网站”或同义表达时，默认执行完整发布流程：检查 `share` 中相对当前网站仓库新增的 Markdown 分享内容，同步到个人网站，完成验证，提交并推送到远端 GitHub。
+- 同步前必须先比较 `share` 源文件与 `public/published/posts-manifest.json` 中记录的来源，明确新增、变更和异常文件；没有新增内容时直接说明，不做空提交。
 - 发布到网站时，必须把 Markdown 原样复制到项目内：
 
 ```text
