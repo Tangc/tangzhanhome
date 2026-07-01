@@ -1,6 +1,23 @@
 import Link from 'next/link';
 import { getSortedPostsData } from '@/lib/posts';
 import styles from './page.module.css';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '文章归档 | 唐斩',
+  description: '唐斩关于 AI 编程、Agent、OpenCode、OpenClaw 和个人 AI-Native 转型的文章归档。',
+  alternates: {
+    canonical: '/blog',
+  },
+  openGraph: {
+    title: '文章归档 | 唐斩',
+    description: '唐斩关于 AI 编程、Agent、OpenCode、OpenClaw 和个人 AI-Native 转型的文章归档。',
+    url: '/blog',
+    siteName: 'Tang Zhan',
+    locale: 'zh_CN',
+    type: 'website',
+  },
+};
 
 export default function BlogIndex() {
   const allPosts = getSortedPostsData();
@@ -17,6 +34,10 @@ export default function BlogIndex() {
 
   return (
     <div className="container" style={{ marginTop: '80px', marginBottom: '80px' }}>
+      <Link href="/" className={styles.backLink}>
+        <span aria-hidden="true">←</span> RETURN_HOME
+      </Link>
+
       <header className={styles.header}>
         <h1 className="mono text-red">LOGS_ARCHIVE</h1>
         <p className={styles.subtitle}>{allPosts.length} ENTRIES FOUND</p>

@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# tangzhanhome
 
-## Getting Started
+唐斩个人网站，使用 Next.js + Bun，部署到 Vercel。
 
-First, run the development server:
+## 开发
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bun install
+bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+本地访问：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 文章同步
 
-## Learn More
+文章原始内容来自：
 
-To learn more about Next.js, take a look at the following resources:
+```text
+/Users/tangchao/Documents/tangzhanx/share
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+发布到网站时，先复制为网站仓库内的发布副本：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+public/published/posts/
+```
 
-## Deploy on Vercel
+同步全部历史分享：
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+bun run sync-content
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+同步脚本会原样复制 Markdown，并在 `public/published/posts-manifest.json` 里生成网站展示和 SEO 需要的 meta。
+
+完整规范见：
+
+```text
+docs/content-publishing.md
+```
+
+## 质量门
+
+```bash
+bun run lint
+bun run build
+```
+
+每篇文章必须有独立 `/blog/<id>` 页面并进入 `/sitemap.xml`。`/published/posts/*.md` 只作为原文副本和构建输入，必须保持 `noindex`。
