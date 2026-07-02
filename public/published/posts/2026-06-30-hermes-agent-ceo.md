@@ -1,0 +1,119 @@
+## 工作流结果
+
+来源状态：成功
+来源类型：文件 + 视频
+来源路径或链接：
+- /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.txt
+- /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.mov
+文章类型：认知判断型
+发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-30-2146-hermes-agent-ceo
+核心论点：Agent CEO 需要的不是更会聊天的项目空间，而是一个有主体感、有灵魂文件、有执行通道的运行载体；Hermes + SOUL.md + ACP + Codex 是一次值得长期测试的架构实验。
+立场：谨慎推荐
+读者行动：如果你也在做数字分身、个人 Agent 或公司 Agent，不要只比较模型和工具功能，先把“谁是主体、谁负责执行、谁持有上下文”这三个问题拆清楚，再决定要不要引入 Hermes。
+
+
+---
+
+![核心判断：Agent CEO 需要主体载体](/published/assets/2026-06-30-hermes-agent-ceo/01-cover-or-core-thesis.png)
+
+# 我把 Agent CEO 的载体换成 Hermes
+
+大家好，我是唐斩。
+
+我这两天装了 Hermes。表面看，这是一次工具迁移：OpenClaw 先放一边，换一个新的 Agent 桌面工具试试。
+
+但我真正想测的不是 Hermes 好不好用，而是 Agent CEO 到底应该由什么东西来承载。
+
+我的判断先放前面：如果你只是把 AI 当聊天助手，Codex 的项目功能已经够用；但如果你想做一个长期运行的 Agent CEO，只靠项目对话是不够的。它需要一个更像“主体”的载体，需要灵魂文件，也需要真实执行能力。
+
+## 1. Codex 项目能控制行为，但不像一个主体
+
+我用 Codex 项目功能已经有一段时间。它的问题不是能力不够，而是形态不对。
+
+Codex 项目里有 AGENTS.md，可以控制 Agent 的行为。你把规范、边界、工作方式写进去，它确实会影响模型调用时的系统行为。
+
+但项目终究还是项目。
+
+它更像一个对话空间，不像一个可以被我诉说、可以和我长期互为代理的对象。
+
+我做 Agent CEO 时，核心理念不是“我有一个 AI 助手”。我的设定是：我是 Agent CEO 在物理世界的代理，Agent CEO 是我在数字世界的代理。我们两个互为代理。
+
+这个设定一旦成立，Agent 就不能只是项目文件夹里的一个对话对象。它要有自己的主体感。
+
+## 2. SOUL.md 解决的不是功能，是身份
+
+Claw 系列有一个我很在意的设计：SOUL.md。
+
+从技术上讲，AGENTS.md 和 SOUL.md 最终都会影响大模型调用时的系统行为。你可以说它们在能力上有重叠。
+
+但命名会改变使用方式。
+
+AGENTS.md 更像工作规范。SOUL.md 更像身份、使命和长期性格。一个告诉 Agent 怎么干活，一个更像告诉它“你是谁”。
+
+这不是玄学。长期 Agent 系统里，身份文件会影响它怎么理解任务、怎么取舍、怎么保持一致。
+
+所以我这次想试 Hermes。用 Hermes 的 SOUL.md 给 Agent CEO 注入灵魂，再让 Hermes 通过 ACP 控制电脑上的 Codex，补上执行能力。
+
+## 3. 新架构：Hermes 承载主体，Codex 负责执行
+
+我现在设想的架构很直接：
+
+第一层，Hermes 承载 Agent CEO 的主体。SOUL.md 负责身份、目标、风格和长期行为倾向。
+
+第二层，ACP 作为控制通道。Hermes 不只是自己思考，还要能控制电脑上的工具。
+
+第三层，Codex 命令行负责执行。真正写代码、改文件、跑命令、验证结果，还是交给 Codex 这类工具。
+
+第四层，我自己使用另一台 Mac 上的 Codex 桌面应用。Agent CEO 和我分开入口，各司其职。
+
+这个拆法的关键是：不要把主体感、工具调用和人类操作混在一起。
+
+## 4. 这不是“换个工具试试”
+
+很多人看桌面 Agent，会先问功能：能不能控制电脑？能不能写代码？能不能接 MCP？能不能记忆？
+
+这些都重要，但不是第一问题。
+
+第一问题是：这个 Agent 到底是谁？
+
+如果它只是一个会调用工具的聊天窗口，那它再强也还是助手。如果它有稳定身份、有长期目标、有执行通道，它才有可能变成数字世界里的工作主体。
+
+这也是我为什么会关注 Hermes 官方桌面应用。官方维护的桌面应用，至少有机会降低安装和维护成本。
+
+工具应该给人提效，不应该让人每次升级都去折腾配置文件。这个坑我在 OpenClaw 上已经不想再踩一遍。
+
+## 5. 我会推荐谁试
+
+我的结论是：谨慎推荐。
+
+如果你正在做个人 Agent、数字分身、Agent CEO、公司工作流自动化，可以试 Hermes 这条路。尤其是你已经意识到“提示词”和“项目规则”不足以承载长期主体时，SOUL.md 这个设计值得看。
+
+但如果你只是想找一个更好用的 AI 编程工具，先别折腾。
+
+直接把 Codex、Claude Code、Cursor 的工作流跑顺，比换一堆桌面 Agent 更重要。
+
+这套架构真正要验证三件事：
+
+1. SOUL.md 能不能让 Agent CEO 的身份保持稳定。
+2. ACP 控制 Codex 的执行链路够不够顺。
+3. Hermes 的官方桌面应用能不能减少维护成本，而不是制造新的配置负担。
+
+## 6. 下一步：长期测试，不急着下结论
+
+我现在不会说 Hermes 一定比 OpenClaw 好，也不会说这就是 Agent CEO 的最终载体。
+
+来源里能确认的只是：我安装了 Hermes，并且准备把它作为新的架构实验。
+
+后面我要看的不是宣传页，而是真实工作结果：它能不能持续组织资料、知识、Agent 和任务；能不能让 Agent CEO 在数字世界里完成公司运行的大多数事情；能不能让我只处理少量物理世界不可避免的工作。
+
+如果这条链路跑通，Agent CEO 就不再只是一个概念。
+
+它会变成一个有灵魂文件、有控制通道、有执行工具的工作主体。
+
+这才是我安装 Hermes 真正想验证的事。
+
+![Hermes + SOUL.md + ACP + Codex 架构](/published/assets/2026-06-30-hermes-agent-ceo/02-architecture.png)
+
+![Agent CEO 与我各司其职](/published/assets/2026-06-30-hermes-agent-ceo/03-responsibility-split.png)
+
+![长期测试清单](/published/assets/2026-06-30-hermes-agent-ceo/04-long-term-test.png)

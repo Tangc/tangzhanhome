@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRoot": "tangzhanx/share",
-  "total": 174,
+  "total": 182,
   "posts": [
     {
       "id": "2025-07-07-0707-d01e04",
@@ -2264,6 +2264,110 @@
       "sourceFile": "publisher/content/items/2026-07-02-feichirensheng3-review/飞驰人生3观影记录.md",
       "sourcePath": "publisher/content/items/2026-07-02-feichirensheng3-review/飞驰人生3观影记录.md",
       "sourceSha256": "ec89e697c0e10ff6e1fdb03733af19c876e750ca42c7fdd017afefb4ffe6a9c6"
+    },
+    {
+      "id": "2026-06-07-super-individual-tencent",
+      "fileName": "2026-06-07-super-individual-tencent.md",
+      "title": "超级个体不是终点，超级团队才是 AI 组织的分水岭",
+      "titleStatus": "generated",
+      "date": "2026-06-07",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-07-1154-super-individual-tencent/ 核心论点：AI 时代的个人红利会很快扩散，真正能拉开差距的是...",
+      "sourceFile": "publisher/content/items/2026-06-07-super-individual-tencent/super-individual-tencent-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-07-super-individual-tencent/super-individual-tencent-tangzhan-gpt-image.md",
+      "sourceSha256": "7246d39dde01d5ed31bbd5394ba60f60732e30630d8b29c029055ed4603eb051"
+    },
+    {
+      "id": "2026-06-12-loop-engineering",
+      "fileName": "2026-06-12-loop-engineering.md",
+      "title": "别只学 Prompt 了，下一步是设计 Loop",
+      "titleStatus": "generated",
+      "date": "2026-06-12",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "--- title: 别只学 Prompt 了，下一步是设计 Loop sourceurl: https://addyosmani.com/blog/loop-engineering/ sourcetitle: Loop Engineering sourceauthor: Addy Osmani s...",
+      "sourceFile": "publisher/content/items/2026-06-12-loop-engineering/loop-engineering-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-12-loop-engineering/loop-engineering-tangzhan-gpt-image.md",
+      "sourceSha256": "1099728a38e818192734d07f60ae4c0d8cd86650bc2fbbeb21ed1c4ae7f6b3ce"
+    },
+    {
+      "id": "2026-06-19-recursive-self-improvement",
+      "fileName": "2026-06-19-recursive-self-improvement.md",
+      "title": "AI 自己造 AI，程序员真正要害怕的不是失业",
+      "titleStatus": "generated",
+      "date": "2026-06-19",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-19-0908-recursive-self-improvement 核心论点：Anthropic 这篇文章真正值得程序员看的，...",
+      "sourceFile": "publisher/content/items/2026-06-19-recursive-self-improvement/recursive-self-improvement-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-19-recursive-self-improvement/recursive-self-improvement-tangzhan-gpt-image.md",
+      "sourceSha256": "8bb909fad5c1c4c06e9213089250589aaf082108ce2d172bf4f94e9288eb7a39"
+    },
+    {
+      "id": "2026-06-19-eve-agent-filesystem",
+      "fileName": "2026-06-19-eve-agent-filesystem.md",
+      "title": "eve 给 Agent 项目一个文件系统骨架",
+      "titleStatus": "generated",
+      "date": "2026-06-19",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 来源类型：URL 来源路径或链接：https://eve.dev/docs/introduction#an-eve-project-at-a-glance 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-...",
+      "sourceFile": "publisher/content/items/2026-06-19-eve-agent-filesystem/eve-agent-filesystem-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-19-eve-agent-filesystem/eve-agent-filesystem-tangzhan-gpt-image.md",
+      "sourceSha256": "df1dab4699106ebabdd036559cb908d7c9fcb36837fca707ec53ddb7872bb98c"
+    },
+    {
+      "id": "2026-06-20-open-knowledge-format",
+      "fileName": "2026-06-20-open-knowledge-format.md",
+      "title": "Google 开源 OKF，我更关心它背后的知识协作方式",
+      "titleStatus": "generated",
+      "date": "2026-06-20",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 来源类型：URL 来源路径或链接：https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing?hl=en 文章类型...",
+      "sourceFile": "publisher/content/items/2026-06-20-open-knowledge-format/open-knowledge-format-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-20-open-knowledge-format/open-knowledge-format-tangzhan-gpt-image.md",
+      "sourceSha256": "6db56f92a34e54bad2c460bbbdb44d9838d152693053ebfc933c2c2d20fb4fbb"
+    },
+    {
+      "id": "2026-06-22-godmother-ai-workers",
+      "fileName": "2026-06-22-godmother-ai-workers.md",
+      "title": "未来十年，程序员要么很专，要么很能折腾",
+      "titleStatus": "generated",
+      "date": "2026-06-22",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-22-1342-godmother-ai-workers 核心论点：AI 时代的职业分化，不是“会不会用工具”，而是能否把专业判...",
+      "sourceFile": "publisher/content/items/2026-06-22-godmother-ai-workers/godmother-ai-workers-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-22-godmother-ai-workers/godmother-ai-workers-tangzhan-gpt-image.md",
+      "sourceSha256": "c9db88092f77cd5d92aba6189f2b2a92342ae1e9d6b87200f5864df74f99cf54"
+    },
+    {
+      "id": "2026-06-26-ai-knowledge-base-0-to-1",
+      "fileName": "2026-06-26-ai-knowledge-base-0-to-1.md",
+      "title": "AI 知识库不是资料仓库，而是 Agent 的业务知识层",
+      "titleStatus": "generated",
+      "date": "2026-06-26",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 文章类型：体系沉淀型 发布包根目录：outputs/2026-06-26-2201-ai-knowledge-base-0-to-1/ 核心论点：个人 AI 知识库的第一价值不是存资料，而是把公开资料、个人生命体验和场景规则沉淀成 Agent 可调用的业务知识层。 立场：...",
+      "sourceFile": "publisher/content/items/2026-06-26-ai-knowledge-base-0-to-1/ai-knowledge-base-0-to-1-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-26-ai-knowledge-base-0-to-1/ai-knowledge-base-0-to-1-tangzhan-gpt-image.md",
+      "sourceSha256": "56a98fb7785e55529b2ac382b24d679e8d94f8defd389a9ee77b357729484df5"
+    },
+    {
+      "id": "2026-06-30-hermes-agent-ceo",
+      "fileName": "2026-06-30-hermes-agent-ceo.md",
+      "title": "我把 Agent CEO 的载体换成 Hermes",
+      "titleStatus": "generated",
+      "date": "2026-06-30",
+      "dateStatus": "source-package",
+      "category": "thought",
+      "excerpt": "工作流结果 来源状态：成功 来源类型：文件 + 视频 来源路径或链接： /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.txt /Users/tangchao/Documents/tangz...",
+      "sourceFile": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
+      "sourceSha256": "3825e73f45bc2699f46ce096ad7036a20f684c12561b78cf137bb801a213d2f5"
     }
   ]
 }
