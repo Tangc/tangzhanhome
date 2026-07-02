@@ -1,22 +1,6 @@
-## 工作流结果
-
-来源状态：成功
-来源类型：文件 + 视频
-来源路径或链接：
-- /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.txt
-- /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.mov
-文章类型：认知判断型
-发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-30-2146-hermes-agent-ceo
-核心论点：Agent CEO 需要的不是更会聊天的项目空间，而是一个有主体感、有灵魂文件、有执行通道的运行载体；Hermes + SOUL.md + ACP + Codex 是一次值得长期测试的架构实验。
-立场：谨慎推荐
-读者行动：如果你也在做数字分身、个人 Agent 或公司 Agent，不要只比较模型和工具功能，先把“谁是主体、谁负责执行、谁持有上下文”这三个问题拆清楚，再决定要不要引入 Hermes。
-
-
----
+# 我把 Agent CEO 的载体换成 Hermes
 
 ![核心判断：Agent CEO 需要主体载体](/published/assets/2026-06-30-hermes-agent-ceo/01-cover-or-core-thesis.png)
-
-# 我把 Agent CEO 的载体换成 Hermes
 
 大家好，我是唐斩。
 

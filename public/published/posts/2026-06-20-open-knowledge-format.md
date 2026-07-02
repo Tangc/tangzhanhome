@@ -1,16 +1,3 @@
-## 工作流结果
-
-来源状态：成功
-来源类型：URL
-来源路径或链接：https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing?hl=en
-文章类型：体系沉淀型
-发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-20-0855-open-knowledge-format
-核心论点：OKF 的价值不在于多发明一种知识库，而在于把 Agent 需要的上下文变成可版本化、可迁移、可协作的文件格式。
-立场：谨慎推荐
-读者行动：先用一个小型 repo 试做团队知识 bundle：目录、frontmatter、index、log、引用链跑通之后，再考虑接入业务系统。
-
----
-
 # Google 开源 OKF，我更关心它背后的知识协作方式
 
 ![OKF 把知识变成可协作的文件格式](/published/assets/2026-06-20-open-knowledge-format/01-cover-or-core-thesis.png)

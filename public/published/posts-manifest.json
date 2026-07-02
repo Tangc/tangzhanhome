@@ -2273,10 +2273,10 @@
       "date": "2026-06-07",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-07-1154-super-individual-tencent/ 核心论点：AI 时代的个人红利会很快扩散，真正能拉开差距的是...",
+      "excerpt": "大家好，我是唐斩。 我今天看的材料，是腾讯研究院的《超级个体时代｜腾讯研究院3万字报告》。Get 笔记里保存的标题是《从超级个体到超级团队：AI时代组织变革的涌现路径》。 先说结论：这篇报告值得看，但不要只盯着“超级个体”这个词。 如果你是开发者、产品经理、独立创作者，或者正在搭 AI 编程工作流，...",
       "sourceFile": "publisher/content/items/2026-06-07-super-individual-tencent/super-individual-tencent-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-07-super-individual-tencent/super-individual-tencent-tangzhan-gpt-image.md",
-      "sourceSha256": "7246d39dde01d5ed31bbd5394ba60f60732e30630d8b29c029055ed4603eb051"
+      "sourceSha256": "a0f1736451fa9327f5fd5c8fe221224963101c6432d4f0d38d809dcb3ea86347"
     },
     {
       "id": "2026-06-12-loop-engineering",
@@ -2286,10 +2286,10 @@
       "date": "2026-06-12",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "--- title: 别只学 Prompt 了，下一步是设计 Loop sourceurl: https://addyosmani.com/blog/loop-engineering/ sourcetitle: Loop Engineering sourceauthor: Addy Osmani s...",
+      "excerpt": "大家好，我是唐斩。 今天看了 Addy Osmani 的一篇文章，标题叫《Loop Engineering》。他的判断很直接：AI 编程的下一层，不是继续写更好的 prompt，而是设计能持续 prompt agent 的 loop。 我先说结论：这个方向值得关注，但别把它理解成“人终于可以退出开发...",
       "sourceFile": "publisher/content/items/2026-06-12-loop-engineering/loop-engineering-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-12-loop-engineering/loop-engineering-tangzhan-gpt-image.md",
-      "sourceSha256": "1099728a38e818192734d07f60ae4c0d8cd86650bc2fbbeb21ed1c4ae7f6b3ce"
+      "sourceSha256": "c37e6eab4764edaef6566083c15c359e3b1358cc6b9ec417383a1b7ca8c09e38"
     },
     {
       "id": "2026-06-19-recursive-self-improvement",
@@ -2299,10 +2299,10 @@
       "date": "2026-06-19",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-19-0908-recursive-self-improvement 核心论点：Anthropic 这篇文章真正值得程序员看的，...",
+      "excerpt": "大家好，我是唐斩。 今天这篇来自 Anthropic Institute，标题叫《When AI builds itself》。它讲的是 recursive self-improvement，也就是 AI 系统有没有可能自己设计、训练、改进下一代 AI。 我的判断先放前面：这篇值得程序员认真看，但别...",
       "sourceFile": "publisher/content/items/2026-06-19-recursive-self-improvement/recursive-self-improvement-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-19-recursive-self-improvement/recursive-self-improvement-tangzhan-gpt-image.md",
-      "sourceSha256": "8bb909fad5c1c4c06e9213089250589aaf082108ce2d172bf4f94e9288eb7a39"
+      "sourceSha256": "26620a537535d24e37c894b37e3486803e57ee0e5f85be3d6ed1b50415203289"
     },
     {
       "id": "2026-06-19-eve-agent-filesystem",
@@ -2312,10 +2312,10 @@
       "date": "2026-06-19",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 来源类型：URL 来源路径或链接：https://eve.dev/docs/introduction#an-eve-project-at-a-glance 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-...",
+      "excerpt": "大家好，我是唐斩。 今天看的是 Vercel 的 eve 文档。它是一个 Agent 框架，但我觉得最值得看的不是「又来了一个框架」，而是它对 Agent 项目结构的判断。 我的立场：谨慎推荐。 如果你已经在做 Agent 工程，工具、Skill、渠道、多轮状态开始变乱，eve 值得研究。如果你只是...",
       "sourceFile": "publisher/content/items/2026-06-19-eve-agent-filesystem/eve-agent-filesystem-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-19-eve-agent-filesystem/eve-agent-filesystem-tangzhan-gpt-image.md",
-      "sourceSha256": "df1dab4699106ebabdd036559cb908d7c9fcb36837fca707ec53ddb7872bb98c"
+      "sourceSha256": "f613d88572cfdedb0310bb77433c22cf93f0ce344349b550114d94162407076c"
     },
     {
       "id": "2026-06-20-open-knowledge-format",
@@ -2325,10 +2325,10 @@
       "date": "2026-06-20",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 来源类型：URL 来源路径或链接：https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing?hl=en 文章类型...",
+      "excerpt": "大家好，我是唐斩。 Google Cloud 在 2026 年 6 月 13 日发了一篇文章，介绍 Open Knowledge Format，简称 OKF。v0.1 的设计非常朴素：一个 Markdown 文件目录，再加 YAML frontmatter，用来表示人和 Agent 都能读取的知识。...",
       "sourceFile": "publisher/content/items/2026-06-20-open-knowledge-format/open-knowledge-format-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-20-open-knowledge-format/open-knowledge-format-tangzhan-gpt-image.md",
-      "sourceSha256": "6db56f92a34e54bad2c460bbbdb44d9838d152693053ebfc933c2c2d20fb4fbb"
+      "sourceSha256": "9959b6ace6439a874c3d1270be6811385dbd49a6b60b0c7f6fbd85e8bc4d3486"
     },
     {
       "id": "2026-06-22-godmother-ai-workers",
@@ -2338,10 +2338,10 @@
       "date": "2026-06-22",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 文章类型：认知判断型 发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-22-1342-godmother-ai-workers 核心论点：AI 时代的职业分化，不是“会不会用工具”，而是能否把专业判...",
+      "excerpt": "大家好，我是唐斩。 我今天看了一期 Silicon Valley Girl 的访谈，嘉宾是 Fei-Fei Li 和 MasterClass 的 CEO David Rogier。视频标题很猛，叫《Godmother of AI: In 10 Years There Will Be Only 2 K...",
       "sourceFile": "publisher/content/items/2026-06-22-godmother-ai-workers/godmother-ai-workers-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-22-godmother-ai-workers/godmother-ai-workers-tangzhan-gpt-image.md",
-      "sourceSha256": "c9db88092f77cd5d92aba6189f2b2a92342ae1e9d6b87200f5864df74f99cf54"
+      "sourceSha256": "bb51496cc3bb6561d824e534ec5c5143478ad23eec1657f88e33ec35ea7929c3"
     },
     {
       "id": "2026-06-26-ai-knowledge-base-0-to-1",
@@ -2351,10 +2351,10 @@
       "date": "2026-06-26",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 文章类型：体系沉淀型 发布包根目录：outputs/2026-06-26-2201-ai-knowledge-base-0-to-1/ 核心论点：个人 AI 知识库的第一价值不是存资料，而是把公开资料、个人生命体验和场景规则沉淀成 Agent 可调用的业务知识层。 立场：...",
+      "excerpt": "大家好，我是唐斩。 这篇文章来自一场 2026 年 6 月 24 日晚上的线下分享录音，主题是《AI知识库从0到1的思考与实践分享》。 我重新听这段录音时，最想保留的不是某个工具教程，而是一个判断：AI 知识库不是一个更智能的收藏夹，它应该成为 Agent 做事时调用的业务知识层。 如果只是把文章、...",
       "sourceFile": "publisher/content/items/2026-06-26-ai-knowledge-base-0-to-1/ai-knowledge-base-0-to-1-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-26-ai-knowledge-base-0-to-1/ai-knowledge-base-0-to-1-tangzhan-gpt-image.md",
-      "sourceSha256": "56a98fb7785e55529b2ac382b24d679e8d94f8defd389a9ee77b357729484df5"
+      "sourceSha256": "a3553b70844e84fba1e81ef5ebc88603c561b957b0e8677d298958d89dbf7364"
     },
     {
       "id": "2026-06-30-hermes-agent-ceo",
@@ -2364,10 +2364,10 @@
       "date": "2026-06-30",
       "dateStatus": "source-package",
       "category": "thought",
-      "excerpt": "工作流结果 来源状态：成功 来源类型：文件 + 视频 来源路径或链接： /Users/tangchao/Documents/tangzhanx/video/20260628hermes/0628hermes/0628hermes.txt /Users/tangchao/Documents/tangz...",
+      "excerpt": "大家好，我是唐斩。 我这两天装了 Hermes。表面看，这是一次工具迁移：OpenClaw 先放一边，换一个新的 Agent 桌面工具试试。 但我真正想测的不是 Hermes 好不好用，而是 Agent CEO 到底应该由什么东西来承载。 我的判断先放前面：如果你只是把 AI 当聊天助手，Codex...",
       "sourceFile": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
-      "sourceSha256": "3825e73f45bc2699f46ce096ad7036a20f684c12561b78cf137bb801a213d2f5"
+      "sourceSha256": "bc35d4f7bf27e0dbf40bab5ab236beb1dd4d91bedcd924a2ef889ff7491428f2"
     }
   ]
 }

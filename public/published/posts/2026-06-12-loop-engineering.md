@@ -1,22 +1,3 @@
----
-title: 别只学 Prompt 了，下一步是设计 Loop
-source_url: https://addyosmani.com/blog/loop-engineering/
-source_title: Loop Engineering
-source_author: Addy Osmani
-source_date: 2026-06-07
-workflow: tangzhan-writing-workflow
-workflow_version: v1.1.0
-created_at: 2026-06-12
----
-
-> 工作流结果
->
-> - 文章类型：体系沉淀型
-> - 推荐标题：别只学 Prompt 了，下一步是设计 Loop
-> - 核心判断：AI 编程的下一层能力，不是继续堆更长的提示词，而是把触发、上下文、工具、隔离、验证、状态和人工判断组合成可重复运行的 loop。
-> - 推荐立场：谨慎推荐
-> - 配图说明：本文配图由本地工作流生成，适合作为公众号正文插图使用。
-
 # 别只学 Prompt 了，下一步是设计 Loop
 
 ![别只学 Prompt，下一步是设计 Loop](/published/assets/2026-06-12-loop-engineering/01-cover-or-core-thesis.png)

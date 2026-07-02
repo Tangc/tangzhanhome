@@ -1,18 +1,3 @@
-## 工作流结果
-来源状态：成功
-来源类型：URL
-来源路径或链接：https://eve.dev/docs/introduction#an-eve-project-at-a-glance
-发布包根目录：/Users/tangchao/Documents/New project/outputs/2026-06-19-2111-eve-agent-filesystem
-文章类型：体系沉淀型
-推荐标题：eve 给 Agent 项目一个文件系统骨架
-核心论点：eve 的价值不在于又发明一个 Agent 框架，而是把 Agent 的指令、工具、技能、渠道和持久会话拆回可读、可维护的文件系统结构。
-立场：谨慎推荐
-读者行动：已经在做 Agent 工程的人可以读文档、跑一个最小项目；还没遇到多轮会话、工具注册和渠道扩展痛点的人，不必急着迁移。
-
----
-
-# 成文稿
-
 # eve 给 Agent 项目一个文件系统骨架
 
 大家好，我是唐斩。

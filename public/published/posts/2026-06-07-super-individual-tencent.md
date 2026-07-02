@@ -1,14 +1,3 @@
-## 工作流结果
-
-来源状态：成功
-文章类型：认知判断型
-发布包根目录：`/Users/tangchao/Documents/New project/outputs/2026-06-07-1154-super-individual-tencent/`
-核心论点：AI 时代的个人红利会很快扩散，真正能拉开差距的是“把个人 AI 能力做成团队基础设施”的能力。
-立场：谨慎推荐
-读者行动：先选一个真实问题，做一个 7 天 AI First 小闭环：问题定义、AI 执行、人工评估、沉淀工具、公开 Demo。
-
----
-
 # 超级个体不是终点，超级团队才是 AI 组织的分水岭
 
 ![核心判断](/published/assets/2026-06-07-super-individual-tencent/01-cover-or-core-thesis.png)
