@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRoot": "tangzhanx/share",
-  "total": 173,
+  "total": 174,
   "posts": [
     {
       "id": "2025-07-07-0707-d01e04",
@@ -2251,6 +2251,19 @@
       "sourceFile": "2026/20269999_D999E999.md",
       "sourcePath": "2026/20269999_D999E999.md",
       "sourceSha256": "f6de85e15e7211cea9badf08c9c51cfedf6350c3e2d3d532a51c1854c346d64e"
+    },
+    {
+      "id": "2026-07-02-feichirensheng3-review",
+      "fileName": "2026-07-02-feichirensheng3-review.md",
+      "title": "飞驰人生3观影记录",
+      "titleStatus": "source-heading",
+      "date": "2026-07-02",
+      "dateStatus": "metadata",
+      "category": "thought",
+      "excerpt": "飞驰人生已经“死”了。 从头开始看，打2.5分(5分满分)。从1小时开始看，打4.5分(5分满分)。前一个小时完全可以不必存在，或者快速拉过，或者闪回会议快速交代。 我说“死了”，是因为理想气质和草根气质到这部已经耗尽了。 第一部，浓缩成一句话，“heros never die”，既讲张驰，也讲自己...",
+      "sourceFile": "publisher/content/items/2026-07-02-feichirensheng3-review/飞驰人生3观影记录.md",
+      "sourcePath": "publisher/content/items/2026-07-02-feichirensheng3-review/飞驰人生3观影记录.md",
+      "sourceSha256": "ec89e697c0e10ff6e1fdb03733af19c876e750ca42c7fdd017afefb4ffe6a9c6"
     }
   ]
 }
