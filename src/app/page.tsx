@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Code } from 'lucide-react';
+import { CalendarPlus, Code } from 'lucide-react';
 import { getRecentPostsData } from '@/lib/posts';
 import AnimatedIntro from './AnimatedIntro';
 import styles from './page.module.css';
@@ -7,7 +7,8 @@ import styles from './page.module.css';
 export default function Home() {
   const recentPosts = getRecentPostsData(5);
   const portfolio = [
-    { name: 'OpenCode CN', url: 'https://opencodecn.com', desc: 'AI Coding Hub', icon: <Code size={16} /> },
+    { name: 'OpenCode CN', url: 'https://opencodecn.com', desc: 'AI Coding Hub', icon: <Code size={16} />, external: true },
+    { name: 'Calendar Script', url: '/calendar-script', desc: 'Mac 日历导入脚本', icon: <CalendarPlus size={16} />, external: false },
   ];
 
   return (
@@ -46,15 +47,27 @@ export default function Home() {
             </div>
             <div className={styles.grid}>
               {portfolio.map((item) => (
-                <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer" className={styles.cardLink}>
-                  <div className={styles.miniCard}>
-                    <div className={styles.miniCardHeader}>
-                        {item.icon}
-                        <span className={styles.miniCardTitle}>{item.name}</span>
+                item.external ? (
+                  <a key={item.name} href={item.url} target="_blank" rel="noopener noreferrer" className={styles.cardLink}>
+                    <div className={styles.miniCard}>
+                      <div className={styles.miniCardHeader}>
+                          {item.icon}
+                          <span className={styles.miniCardTitle}>{item.name}</span>
+                      </div>
+                      <div className={styles.miniCardDesc}>{item.desc}</div>
                     </div>
-                    <div className={styles.miniCardDesc}>{item.desc}</div>
-                  </div>
-                </a>
+                  </a>
+                ) : (
+                  <Link key={item.name} href={item.url} className={styles.cardLink}>
+                    <div className={styles.miniCard}>
+                      <div className={styles.miniCardHeader}>
+                          {item.icon}
+                          <span className={styles.miniCardTitle}>{item.name}</span>
+                      </div>
+                      <div className={styles.miniCardDesc}>{item.desc}</div>
+                    </div>
+                  </Link>
+                )
               ))}
             </div>
           </section>
