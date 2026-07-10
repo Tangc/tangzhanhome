@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRoot": "tangzhanx/share",
-  "total": 182,
+  "total": 183,
   "posts": [
     {
       "id": "2025-07-07-0707-d01e04",
@@ -2368,6 +2368,19 @@
       "sourceFile": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-06-30-hermes-agent-ceo/hermes-agent-ceo-tangzhan-gpt-image.md",
       "sourceSha256": "bc35d4f7bf27e0dbf40bab5ab236beb1dd4d91bedcd924a2ef889ff7491428f2"
+    },
+    {
+      "id": "2026-07-03-browser-use-video-use",
+      "fileName": "2026-07-03-browser-use-video-use.md",
+      "title": "browser-use/video-use：用 Coding Agent 剪视频的开源项目",
+      "titleStatus": "source-heading",
+      "date": "2026-07-03",
+      "dateStatus": "provided",
+      "category": "thought",
+      "excerpt": "我最近看到 browser-use/video-use 这个开源项目，第一反应不是“AI 又能自动剪视频了”。 更准确的说法是：它把视频剪辑这件事，重新翻译成了 Agent 可以阅读、判断、执行和自检的工程流程。 这点比“自动剪辑”四个字重要。 因为大模型本身并不适合直接看完几万帧视频，再凭感觉决定...",
+      "sourceFile": "publisher/content/items/2026-07-03-browser-use-video-use/browser-use-video-use-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-07-03-browser-use-video-use/browser-use-video-use-tangzhan-gpt-image.md",
+      "sourceSha256": "c1186b98ebee6ff951cd0f0ec72bcb3f9f267a7706490313ab6fbfe669e4142f"
     }
   ]
 }
