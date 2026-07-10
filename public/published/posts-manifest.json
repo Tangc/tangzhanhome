@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRoot": "tangzhanx/share",
-  "total": 183,
+  "total": 184,
   "posts": [
     {
       "id": "2025-07-07-0707-d01e04",
@@ -2381,6 +2381,19 @@
       "sourceFile": "publisher/content/items/2026-07-03-browser-use-video-use/browser-use-video-use-tangzhan-gpt-image.md",
       "sourcePath": "publisher/content/items/2026-07-03-browser-use-video-use/browser-use-video-use-tangzhan-gpt-image.md",
       "sourceSha256": "c1186b98ebee6ff951cd0f0ec72bcb3f9f267a7706490313ab6fbfe669e4142f"
+    },
+    {
+      "id": "2026-07-03-andrew-ng-agent-development-loops",
+      "fileName": "2026-07-03-andrew-ng-agent-development-loops.md",
+      "title": "吴恩达：AI 智能体软件开发的三层反馈循环",
+      "titleStatus": "source-heading",
+      "date": "2026-07-03",
+      "dateStatus": "provided",
+      "category": "thought",
+      "excerpt": "大家好，我是唐斩。 Andrew Ng 最近写了一条关于 Loop Engineering 的长帖。这个词最近很火，Claude Code 的 Boris Cherny、OpenClaw 的 Peter Steinberger 都提过。 但我看完之后，觉得真正值得关注的不是这个新词，而是他把 AI ...",
+      "sourceFile": "publisher/content/items/2026-07-03-andrew-ng-agent-development-loops/andrew-ng-agent-development-loops-tangzhan-gpt-image.md",
+      "sourcePath": "publisher/content/items/2026-07-03-andrew-ng-agent-development-loops/andrew-ng-agent-development-loops-tangzhan-gpt-image.md",
+      "sourceSha256": "c70ae6416ef68fe147d4381630bd840c395a919b4e6cd27454d5c1bd5c08480e"
     }
   ]
 }
